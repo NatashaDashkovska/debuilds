@@ -1,4 +1,165 @@
+:root {
+  --primary-white-color: #ffffff;
+  --gradient-color: linear-gradient(104.58deg, #056088 10.57%, #09a7ca 96.62%);
+  --primary-text-color: #434343;
+  --secontary-text-color: #056088;
+  --bcg-color: #023957;
+
+  --primary-font: 'Poppins', sans-serif;
+  --secondary-font: 'Roboto', sans-serif;
+}
+
 body {
-  background-color: #ffffff;
-  font-family: 'Poppins';
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+  font-family: var(--primary-font);
+}
+
+ul {
+  list-style: none;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: var(--secondary-font);
+  font-size: 66px;
+  line-height: 1.17;
+  color: var(--primary-white-color);
+}
+
+.nav-link a {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--primary-white-color);
+}
+
+.main-title {
+  font-size: 52px;
+  line-height: 1.5;
+  color: var(--primary-white-color);
+}
+
+.hero-text {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.7;
+  color: var(--primary-white-color);
+}
+
+.btn {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.7;
+  color: var(--primary-white-color);
+  background-color: var(--gradient-color);
+}
+
+.section-title {
+  font-size: 24px;
+  line-height: 1.7;
+  color: var(--secontary-text-color);
+}
+
+.section-text {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.handled-title {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.8;
+}
+
+.handled-item p {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.7;
+  color: var(--secontary-text-color);
+}
+
+.service-title {
+  font-size: 20px;
+  line-height: 1.7;
+}
+
+.service-text {
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.benefit-title {
+  font-size: 20px;
+  line-height: 1.7;
+  color: var(--primary-white-color);
+}
+
+.benefit-text {
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--primary-white-color);
+}
+
+.review-text {
+  font-size: 16px;
+  font-style: italic;
+  line-height: 1.7;
+
+  background: #ffffff;
+}
+
+.review-author {
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 1.7;
+
+  background: #ffffff;
+}
+
+.form-section-title {
+  font-size: 52px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.footer-block {
+  background-color: var(--bcg-color);
+}
+
+.address {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--primary-white-color);
+}
+
+.footer-menu-title {
+  font-size: 24px;
+  line-height: 1.7;
+  color: var(--primary-white-color);
+}
+
+.footer-menu-item,
+.footer-menu-item a {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+
+  color: var(--primary-white-color);
+}
+
+.copyright {
+  font-size: 16px;
+
+  line-height: 1.7;
+  text-align: center;
 }
